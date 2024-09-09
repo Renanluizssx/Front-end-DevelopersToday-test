@@ -142,7 +142,7 @@ export default function Country() {
       </TextContainer>
 
       <ChartContainer>
-        <SubHeading>Population Over Time</SubHeading>
+        <SubHeading>Population</SubHeading>
         {populationData ? (
           <Chart
             options={chartOptions}
