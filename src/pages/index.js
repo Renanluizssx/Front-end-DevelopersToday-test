@@ -8,7 +8,7 @@ const Container = styled.div`
   padding: 20px;
   background-color: #f9f9f9;
   text-align: center;
-  font-family:Arial;
+  font-family: Arial;
 `;
 
 const Title = styled.h1`
@@ -60,4 +60,3 @@ export default function Home() {
     </Container>
   );
 }
-
