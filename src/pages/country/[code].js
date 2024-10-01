@@ -57,7 +57,6 @@ const SubHeading = styled.h2`
   margin-bottom: 10px;
 `;
 
-// Dynamic import for the chart component
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false });
 
 export default function Country() {
@@ -140,7 +139,10 @@ export default function Country() {
           <ListItem>No neighboring countries</ListItem>
         )}
       </TextContainer>
+<TextContainer2>
 
+
+</TextContainer2>
       <ChartContainer>
         <SubHeading>Population</SubHeading>
         {populationData ? (
